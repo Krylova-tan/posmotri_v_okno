@@ -100,7 +100,7 @@ ol {
 /* для текстового поля */
 .search-form__textfield {
   width: 225px;
-  height: 27px;
+  min-height: 27px;
   border: none;
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
@@ -167,7 +167,7 @@ ol {
 
 /* стили для кнопок */
 .button {
-  border: 1px solid #ffffff;
+  border: 1px solid currentColor;
   color: #ffffff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 700;
@@ -257,6 +257,7 @@ ol {
   background-color: #545050;
 }
 .content__card-link_current:active {
+  background-color: #545050;
   text-decoration: none;
 }
 
