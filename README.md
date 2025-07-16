@@ -26,8 +26,7 @@
 Клонируйте репозиторий
 
 ```
-git clone https://github.com/ваш-username/posmotri-v-okno.git
-cd posmotri-v-okno
+git clone https://github.com/ваш-username/project_video.git
 ```
 
 Откройте файл index.html в браузере
